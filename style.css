@@ -1,0 +1,186 @@
+header {text-align: center; /*font-size: 20px;*/font-family: 'Titillium Web', sans-serif; font-height: 48px; margin-top: 10px !important;}
+h1 {font-size: 30px; }
+nav ul {font-family: 'Titillium Web', sans-serif; list-style-type: none; text-align: center; font-size: 19px; word-spacing: 310px; margin: auto;}
+nav ul li {display: inline-block; margin-bottom: 80px;}
+nav ul a {color:blue;}
+nav ul a:hover {text-decoration: none;}
+.active { color: white;}
+body {background-color: #82f6fa !important;font-family: 'Titillium Web', sans-serif; }
+ p  {text-align: center !important; font-size: 50px; margin-top: 20px;}
+ #prov {text-align: center !important;font-size: 42px; color: white; background-color: purple; border-color: transparent; border-radius: 50%; padding: 20px; 
+ 	font-family: 'Titillium Web', sans-serif;}
+div {text-align: center;}
+
+#gen { font-size: 45px; border-radius: 50%; color: white; background-color: purple; border-color: transparent;padding: 20px; 
+	font-family: 'Titillium Web', sans-serif;}
+#funz {font-size: 45px; border-radius: 50%; color: white; background-color: purple; border-color: transparent;padding: 20px;
+	font-family: 'Titillium Web', sans-serif;}
+ #R {text-align: center !important;
+     font-size: 45px; 
+	 border-radius: 50%; 
+     padding-top: 5px; padding-bottom: 5px;
+	 width: 300px; 
+	 color: white; background-color: purple; border-color: transparent;}
+
+#rif {font-size: 45px; border-radius: 50%; color: white; background-color: purple; border-color: transparent;padding: 20px;
+	 font-family: 'Titillium Web', sans-serif;}
+#mod {font-size: 40px; border-radius: 50%; color: white; background-color: purple; border-color: transparent;padding: 20px;
+	font-family: 'Titillium Web', sans-serif;}
+#T {text-align: center !important;
+     font-size: 35px; 
+	 border-radius: 50%; 
+     padding-top: 5px; padding-bottom: 5px;
+	 width: 150px; 
+	 color: white; background-color: purple; border-color: transparent; padding: 20px;
+	font-family: 'Titillium Web', sans-serif;}
+
+
+.selettore1 {position:relative; left: 630px; display: inline-block; text-align:center !important;}
+.menu-button {text-align:center !important; }
+.dropdown-menu {
+	display: none;
+	position:absolute;
+	background-color: #f9f9f9;
+	min-width: 158px;
+	position: absolute;
+	box-shadow: 8px 8px 16px 8px rgba (0,0,0,0.2);
+	z-index: 1;}
+
+ .dropdown-menu a  { color: black; display: block !important; padding: 10px 14px; text-decoration: none;}
+
+.dropdown-menu a:hover { background-color: #000; color: #fff; } 
+.selettore1:hover .dropdown-menu { display: block !important;}
+.selettore1:hover .menu-button { background-color: transparent;}
+
+
+.selettore2 { position: relative; left:420px;  top: 115px; display: inline-block; text-align:center !important;}
+.menu-button1 {text-align:center !important;}
+.dropdown-menu1 {
+	display: none;
+	position:absolute;
+	background-color: #f9f9f9;
+	min-width: 158px;
+	position: absolute;
+	box-shadow: 8px 8px 16px 8px rgba (0,0,0,0.2);
+	z-index: 1;}
+
+.dropdown-menu1 a  { color: black; display: block !important; padding: 10px 14px; text-decoration: none;}
+
+.dropdown-menu1 a:hover { background-color: #000; color: #fff; } 
+.selettore2:hover .dropdown-menu1 { display: block !important;}
+.selettore2:hover .menu-button1 { background-color: transparent;} 
+
+
+.selettore3 { position: relative; left: 980px; bottom: 230px; display: inline-block; text-align:center !important; width: 300px;}
+.menu-button2 {text-align:center !important;}
+.dropdown-menu2 {
+	display: none;
+	position:absolute;
+	background-color: #f9f9f9;
+	min-width: 158px;
+	position: absolute;
+	box-shadow: 8px 8px 16px 8px rgba (0,0,0,0.2);
+	z-index: 1;}
+
+.dropdown-menu2 a  { color: black; display: block !important; padding: 10px 14px; text-decoration: none;}
+
+.dropdown-menu2 a:hover { background-color: #000; color: #fff; } 
+.selettore3:hover .dropdown-menu2 { display: block !important;}
+.selettore3:hover .menu-button2 { background-color: transparent;}
+.selettore4 { position: relative;
+              bottom: 265px; }
+ 				
+            .selettore4 button #T.menu-button3 {width:100px;}
+
+
+.selettore5 {position:relative; right: 330px; bottom: 105px; }
+#casella3 {display: none;
+          width: 430px;
+          height: 60px;
+          font-style: italic;
+          position: relative;
+          right: 90px;}
+
+ .selettore5:hover #casella3 {display: inline;}
+
+
+.selettore6 {position:relative; left: 180px; width:500px;}
+.selettore7 {position: relative; top: 8px;
+			width: 300px;
+			left: 610px;}
+
+#casella {visibility: hidden;
+          width: 200px;
+          font-style: italic;}
+
+.selettore6:hover #casella {visibility: visible;}
+
+#casella2 {display: none;
+          width: 200px;
+          font-style: italic;}
+ .selettore4:hover #casella2 {display: inline;}
+
+#label1 {border: solid 2px grey ;
+		 background-color: white;
+	     color: grey;
+	 	 font-style: italic;
+	 	 margin: 3px;
+	     padding: 5px;
+	     position: relative;
+	     bottom: 70px;
+	     right: 200px;
+	     visibility:hidden;}
+
+.selettore1:hover #label1 {visibility:visible;}
+
+#cerca { border-radius: 50%;
+          background-color: purple;  
+          height: 115px;
+          width: 115px;  
+          position: relative; 
+          border-color: transparent;
+          left: 1375px;
+          bottom: 100px;
+          font-size: 30px;
+          color: blue;
+      	  font-family: 'Titillium Web', sans-serif;}
+
+#info { border-radius: 50%;
+          background-color: purple;  
+          height: 115px;
+          width: 115px;  
+          position: relative; 
+          border-color: transparent;
+          right: 110px;
+          bottom: 110px;
+          font-size: 30px;
+          color: blue;
+      	  font-family: 'Titillium Web', sans-serif;}
+
+#label2 {border: solid 2px grey ;
+		 background-color: white;
+	     color: grey;
+	 	 font-style: italic;
+	 	 margin: 3px;
+	     padding: 5px;
+	     position: relative;
+	     bottom: 120px;
+	     left: 20px;
+	     visibility:hidden; 
+	     font-size: 12px
+	 		}
+
+	     .selettore7:hover #label2 {visibility:visible;}
+  
+
+footer {text-align: center; font-size: 25px; }
+footer button {
+   margin: 20px; background-color: #82f6fa; border-color: transparent; color: blue; font-family: 'Titillium Web', sans-serif;}
+
+
+
+
+	    					
+
+
+
