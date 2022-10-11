@@ -1,0 +1,33 @@
+
+
+header { font-size: 20px; font-family: 'Titillium Web', sans-serif;
+		font-weight: 400; font-height: 48px; height: 48px; line-height: 37.5px; text-align: center !important;}
+h1 {margin-top: 0px; margin-bottom: 12px; line-height:48px; height: 48px; font-weight: 400; font-height: 48px }
+
+nav ul {font-family: 'Titillium Web', sans-serif; list-style-type: none; text-align: center; font-size: 19px; word-spacing: 310px; margin: auto;}
+nav ul li {display: inline-block; margin-bottom: 80px; }
+nav ul a {color: blue; text-decoration: none;}
+.active {color: white;}
+body {background-color: #82f6fa; text-align: center;}
+label {
+	width: 100px;
+	display: inline-block;
+	text-align: left;
+    margin: 17px;
+	font-size: 25px;				}
+button {margin: 12px; font-family: 'Titillium Web', sans-serif;}
+form input.textbox {width: 190px;
+					height: 25px;}
+
+h2 {text-align: center;
+    font-size: 50px ;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;}
+
+p {font-family: 'Titillium Web', sans-serif;
+   font-size: 23px ;
+   text-align: justify;
+   text-align: center;
+   margin: 36px;
+ }
