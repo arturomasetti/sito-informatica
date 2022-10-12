@@ -1,5 +1,5 @@
 
-
+@media (min-width: 400px) {
 header {text-align: center; /*font-size: 20px;*/font-family: 'Titillium Web', sans-serif; font-height: 48px; margin-top: 10px !important;}
 h1 {font-size: 30px; }
 nav ul {font-family: 'Titillium Web', sans-serif; list-style-type: none; text-align: center; font-size: 19px; word-spacing: 310px; margin: auto;}
@@ -181,7 +181,7 @@ footer {text-align: center; font-size: 25px; }
 footer button {
    margin: 20px; background-color: #82f6fa; border-color: transparent; color: blue; font-family: 'Titillium Web', sans-serif;}
 
-
+}
 
 
 	    					
