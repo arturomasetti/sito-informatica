@@ -9,18 +9,18 @@ nav ul li {display: inline-block; margin-bottom: 80px; }
 nav ul a {color: blue; text-decoration: none;}
 .active {color: white;}
 body {background-color: #82f6fa; text-align: center;}
-label {
-	width: 100px;
+label {font-family: 'Titillium Web', sans-serif;
+	width: 160px;
 	display: inline-block;
 	text-align: left;
     margin: 17px;
 	font-size: 25px;				}
 button {margin: 12px; font-family: 'Titillium Web', sans-serif;}
-form input.textbox {width: 190px;
+form input.textbox {max-width: 190px;
 					height: 25px;}
 
 h2 {text-align: center;
-    font-size: 50px ;
+    font-size: 23px ;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     margin-top: 20px;}
@@ -31,3 +31,5 @@ p {font-family: 'Titillium Web', sans-serif;
    text-align: center;
    margin: 36px;
  }
+ img{width: 50%;
+  height: 50%;}
